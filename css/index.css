@@ -140,6 +140,7 @@ color: #CB7B7B;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  height: 100%;
 }
 .aboutbg{
   background-image: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 100%),url("../images/photo-1546842931-886c185b4c8c.jpeg");
