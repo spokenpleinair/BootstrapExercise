@@ -1,209 +1,392 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/index.css">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-    <title>Atelier Anna</title>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-       <!-- Navigation bar -->
-       <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
-        <a class="navbar-brand bebas" href="#">Atelier Anna</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Daily Prose</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Archive
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">2020</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">2021</a>
-                
-              </div>
-            </li>
-            <li><a class="btn btn-primary btn-md navCTA btn-success bebas" href="#" role="button">Request</a></li>
-          </ul>
-  <!--  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>Atelier Anna</title>
+</head>
+
+<body>
+
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
+    <a class="navbar-brand bebas" href="#">Atelier Anna</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="library.html">Library</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Create Your Own
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="tutorials.html">Overview</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="wabisabi.html">Wabi Sabi with Words</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="haiku.html">Perennial Haiku</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="freeform.html">Freeform in the Wild</a>
+          </div>
+        </li>
+        <li><a class="btn btn-primary btn-md navCTA bebas" href="#signuphere" role="button">Get Daily Prose</a></li>
+      </ul>
+      <!-- 
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </form>
   -->
-        </div>
-      </nav>
-      <!-- End navigation bar -->
-  
-      <!-- Jumbotron -->
-  <div class="jumbotron"><div class="jumboCopy">
-        <h1 class="display-4 rockBackground">A Garden of Prose</h1>
-        <p class="lead">Finding beauty in a bouquet of words</p>
-        <hr class="my-4">
-  <!--  hide for now  
-        <p>Discover the art of poetic arranagement in our  workshops.</p>
-  -->
-        <a class="btn btn-primary btn-lg btn-success bebas" href="#" role="button">Learn more</a>
     </div>
-      </div>
-      <!-- End jumbotron -->
-  
-      <!-- Cards -->
-      <div class="container-fluid content">
-        <h2 class="sectionHeading">Featured Prose & Poetry</h2>
-        <div class="row showsNear">
-          <!-- Card 1 -->
-          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-            <div class="card">
-              <img src="https://images.unsplash.com/photo-1465834342651-fca149ee1ee6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Oh Dahlia</h5>
-                <p class="card-text">Dahlia all afternoon, getting absolutely nothing done</p>
-                <a href="#" class="btn btn-primary bebas btn-success">Read me</a>
-              </div>
-            </div>
+  </nav>
+  <!-- End navigation bar -->
+
+  <!-- Jumbotron -->
+  <div class="jumbotron indexbg">
+    <div class="jumboCopy">
+      <h1 class="display-4 textShadow">Garden of Prose</h1>
+      <p class="lead textShadow">Discover the art of floral word arrangement</p>
+      <!-- <hr class="my-4"> -->
+
+      <a class="btn btn-primary btn-lg bebas" href="#valuePropSection" role="button">Learn more</a>
+    </div>
+  </div>
+  <!-- End jumbotron -->
+
+  <!-- Cards -->
+  <div class="container-fluid content" id="valuePropSection">
+    <h2 class="sectionHeading">Prose for any occasion</h2>
+    <div class="row showsNear">
+      <!-- Card 1 -->
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+        <div class="card valuePropCard">
+          <img src="images/icon5.png" class="card-img-top" alt="Ideas">
+          <div class="card-body">
+            <p class="card-title">A blossom of fresh ideas</p>
+            <!--hide
+                   <p class="card-text">Value prop 1 description</p>
+                <a href="#" class="btn btn-primary bebas">Learn more</a> 
+              -->
           </div>
-          <!-- End card 1 -->
-  
-          <!-- Card 2 -->
-          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-            <div class="card">
-              <img src="https://images.unsplash.com/photo-1477511801984-4ad318ed9846?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Scent of provence</h5>
-                <p class="card-text">A warm summer day, luxuriously soft fields, in the south of France</p>
-                <a href="#" class="btn btn-primary bebas btn-success">Read me</a>
-              </div>
-            </div>
-          </div>
-          <!-- End card 2 -->
-  
-          <!-- Card 3 -->
-          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-            <div class="card">
-              <img src="https://images.unsplash.com/photo-1457089409015-c4c483a5b76d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Remembrance</h5>
-                <p class="card-text">A faint glow, a whisper, so beautiful, then gone</p>
-                <a href="#" class="btn btn-primary btn-success bebas">Read me</a>
-              </div>
-            </div>
-          </div>
-          <!-- End card 3 -->
-  
         </div>
       </div>
-      <!-- End cards -->
-  
-      <!-- Content -->
-      <div class="container-fluid content">
-        <h2 class="sectionHeading">Creative writing workshops</h2>
-        <!-- Row 1 -->
-        <div class="row valueProp imageContainer offwhite">
-          <div class="sideAccent">
-          </div>
-          <div class="col-2">
-            
-          </div>
-          <div class="col-8">
-            <h3>Wabi Sabi with Words</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
-            </p>
-            <a href="#" class="btn btn-primary btn-success bebas">Learn More
-            </a>
+      <!-- End card 1 -->
+
+      <!-- Card 2 -->
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+        <div class="card valuePropCard">
+          <img src="images/icon3.png" class="card-img-top" alt="Flourish">
+          <div class="card-body">
+            <p class="card-title">Add flourish to your everyday</p>
+            <!--hide 
+                  <p class="card-text">value prop 2 description</p>
+                <a href="#" class="btn btn-primary bebas">Learn more</a>
+                -->
           </div>
         </div>
-        <!-- End row 1 -->
-         <!-- Row 2 -->
-        <div class="row valueProp imageContainer offwhite">
-          <div class="sideAccent">
-          </div>
-          <div class="col-2">
-            
-          </div>
-          <div class="col-8">
-            <h3>Around the world with haiku</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
-            </p>
-            <a href="#" class="btn btn-primary btn=success bebas">Learn more
-            </a>
-          </div>
-        </div>
-        <!-- End row 2 -->
-         <!-- Row 3 -->
-        <div class="row valueProp imageContainer offwhite">
-          <div class="sideAccent">
-          </div>
-          <div class="col-2">
-            
-          </div>
-          <div class="col-8 ">
-            <h3>Freeform in the wild</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
-            </p>
-            <a href="#" class="btn btn-primary btn-success bebas">Learn more
-            </a>
-          </div>
-        </div>
-        <!-- End row 3 -->
-  
       </div>
-      <!-- End content -->
-  
-      <!-- Footer -->
-  
-      <footer class="footerbg">
-       <div class="emailContain">
-        <form>
-          <h3>Sign up to receive daily prose</h3>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-              placeholder="Enter email">
+      <!-- End card 2 -->
+
+      <!-- Card 3 -->
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+        <div class="card valuePropCard">
+          <img src="images/icon4.png" class="card-img-top]" alt="Dazzle">
+          <div class="card-body">
+            <p class="card-title">Dazzle with elegant words</p>
+            <!--hide
+                  <p class="card-text">Value prop 3 description</p>
+                <a href="#" class="btn btn-primary bebas">Learn more</a>
+                -->
           </div>
-          <button type="submit" class="btn btn-primary btn-md bebas">Submit</button>
-        </form>
         </div>
-      </footer>
-      <!-- End footer -->
-  
-      <!-- Optional JavaScript -->
-      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+      </div>
+      <!-- End card 3 -->
+    </div>
+    <hr>
+  </div>
+  <!-- End cards -->
+
+  <!-- Content -->
+  <div class="container-fluid content">
+    <h2 class="sectionHeading">Create Your Own Prose Bouquet</h2>
+    <!-- Row 1 -->
+    <div class="row valueProp imageContainer offwhite">
+      <div class="sideAccent">
+      </div>
+
+      <div class="col-10">
+        <h3>Wabi Sabi with Words</h3>
+        <p>
+          Learn to appreciate the beautiful pairing of imperfect, impermanent, and incomplete words that reflect the
+          transient nature of this world.
+        </p>
+        <a href="#" class="btn btn-primary bebas">View Tutorial
+        </a>
+      </div>
+    </div>
+    <!-- End row 1 -->
+    <!-- Row 2 -->
+    <div class="row valueProp imageContainer offwhite">
+      <div class="sideAccent">
+      </div>
+
+      <div class="col-10">
+        <h3>Perennial Haiku</h3>
+        <p>
+          Perennial Haikus focus on the blossoming of words in a brief moment in time, juxtaposing two floral elements,
+          and creating a fragrant bouquet of delight.
+        </p>
+        <a href="#" class="btn btn-primary bebas">View Tutorial
+        </a>
+      </div>
+    </div>
+    <!-- End row 2 -->
+    <!-- Row 3 -->
+    <div class="row valueProp imageContainer offwhite">
+      <div class="sideAccent">
+      </div>
+
+      <div class="col-10 ">
+        <h3>Freeform in the wild</h3>
         
-   
-  </body>
+        <p>
+          Experience true freedom while painting with broad strokes, in words, the beauty and vitality of our natural
+          landscape.
+        </p>
+        <a href="#" class="btn btn-primary bebas">View Tutorial
+        </a>
+      </div>
+    </div>
+    <!-- End row 3 -->
+
+  </div>
+  <!-- End content -->
+  <!-- Featured Prose Cards -->
+  <div class="container-fluid content">
+    <h2 class="sectionHeading">Featured Prose & Poetry</h2>
+    <div class="row showsNear">
+      <!-- Card 1 -->
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1465834342651-fca149ee1ee6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80"
+            class="card-img-top" alt="Dahlia">
+          <div class="card-body">
+            <h5 class="card-title">Oh Dahlia</h5>
+            <p class="card-text">Dahlia all afternoon, getting absolutely nothing done...</p>
+            <button onclick="on1()" class="btn btn-primary bebas">Read me</button>
+          </div>
+        </div>
+      </div>
+
+     
+        <div id="overlay1" onclick="off1()">
+        <div id="poem1">
+        <div class="poemText">
+          <h3>Oh Dahlia</h3>
+        <p>Dahlia all afternoon, getting absolutely nothing done...</p></div>
+        </div>
+        
+        </div>
+
+
+      <!-- End card 1 -->
+
+      <!-- Card 2 -->
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1477511801984-4ad318ed9846?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+            class="card-img-top" alt="Lavender">
+          <div class="card-body">
+            <h5 class="card-title">Scent of Provence</h5>
+            <p class="card-text">A warm summer day, luxuriously soft fields, in the south of France...</p>
+            <button onclick="on2()" class="btn btn-primary bebas">Read me</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="overlay2" onclick="off2()">
+        <div id="poem2">
+          <div class="poemText">
+            <h3>Scent of Provence</h3>
+        <p>A warm summer day, luxuriously soft fields, in the south of France...</p></div>
+        </div>
+        
+        </div>
+      <!-- End card 2 -->
+
+      <!-- Card 3 -->
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1587093602843-c5e904387435?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+            class="card-img-top" alt="Yellow flower">
+          <div class="card-body">
+            <h5 class="card-title">A Time for Joy</h5>
+            <p class="card-text">Radiance as golden as the confidence in our noonday sun...</p>
+            <button onclick="on3()" class="btn btn-primary bebas">Read me</button>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="overlay3" onclick="off3()">
+        <div id="poem3">
+          <div class="poemText">
+            <h3>A Time for Joy</h3>
+        <p>Radiance as golden as the confidence in our noonday sun...</p></div>
+        </div>
+        </div>
+      <!-- End card 3 -->
+
+    </div>
+  </div>
+  <!-- End Featured Bouquet Cards -->
+  <!-- Email Section -->
+
+  <section class="emailSectionBG" id="signuphere">
+    <div class="emailContain">
+      <form>
+        <h3>Get Daily Prose in Your Inbox</h3>
+        <div class="form-group">
+          <p class="signupDescriptor">Sign up to receive daily prose, freshly made word bouquets, exclusive tutorials,
+            and more.</p>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="Enter your email">
+        </div>
+        <button type="submit" class="btn btn-primary btn-md bebas">Submit</button>
+      </form>
+    </div>
+
+  </section>
+
+  <!-- End Email Section -->
+
+  <!-- Begin Footer -->
+  <footer class="container-fluid pb-0 mb-0 justify-content-center text-light darkGreyBG noMargin">
+    <div class="row my-5 justify-content-center py-5">
+      <div class="col-11">
+        <div class="row ">
+          <div class="col-xl-6 col-md-4 col-sm-4 col-12 my-auto mx-auto a">
+            <h3 class="mb-md-0 mb-5 addLetterSpacing">Atelier Anna</h3>
+          </div>
+          <div class="col-xl-3 col-md-4 col-sm-4 col-12">
+            <h6 class="mb-3 mb-lg-4 addLetterSpacing">Menu</h6>
+            <ul class="list-unstyled">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="library.html">Library</a></li>
+              <li><a href="tutorials.html">Tutorials</a></li>
+            </ul>
+          </div>
+          <div class="col-xl-3 col-md-4 col-sm-4 col-12">
+            <h6 class="mb-3 mb-lg-4 mt-sm-0 mt-5 addLetterSpacing">Where we are</h6>
+            <p class="mb-1">SF Bay Area</p>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-xl-6 col-md-4 col-sm-4 col-auto my-md-0 mt-5 order-sm-1 order-3 align-self-end">
+            <!-- <p class="social mb-0 pb-0"> <span class="mx-2"> 
+                <i class="fa fa-facebook" aria-hidden="true"></i></span> <span class="mx-2"><i
+                  class="fa fa-linkedin-square" aria-hidden="true"></i></span> <span class="mx-2"><i
+                  class="fa fa-twitter" aria-hidden="true"></i></span> <span class="mx-2"><i class="fa fa-instagram"
+                  aria-hidden="true"></i></span></p> -->
+          </div>
+          <div class="col-xl-3 col-md-4 col-sm-4 col-auto order-1 align-self-end ">
+            <h6 class="mt-55 mt-2 addLetterSpacing">Get in touch</h6><span><i class="fa fa-envelope text-muted"
+                aria-hidden="true"></i></span> <a
+              href="mailto:info@atelierannadavino.com"> info@atelierannadavino.com</a>
+          </div>
+          <div class="col-xl-3 col-md-4 col-sm-4 col-auto order-2 align-self-end mt-3 ">
+            <h6 class="addLetterSpacing">Follow</h6><span><i class="fa fa-instagram text-muted"
+                aria-hidden="true"></i></span><a href="http://www.instagram.com/"> @atelierannadavino</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <p class="rights">Copyright ©2020 Atelier Anna. All Rights Reserved</p>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <!-- Optional JavaScript -->
+
+  <script>
+    function on1() {
+      document.getElementById("overlay1").style.display = "block";
+    }
+    
+    function off1() {
+      document.getElementById("overlay1").style.display = "none";
+    }
+    </script>
+
+
+<script>
+  function on2() {
+    document.getElementById("overlay2").style.display = "block";
+  }
+  
+  function off2() {
+    document.getElementById("overlay2").style.display = "none";
+  }
+  </script>
+
+<script>
+  function on3() {
+    document.getElementById("overlay3").style.display = "block";
+  }
+  
+  function off3() {
+    document.getElementById("overlay3").style.display = "none";
+  }
+  </script>
+
+
+
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+</body>
+
 </html>
