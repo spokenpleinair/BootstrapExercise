@@ -20,6 +20,26 @@ p {
   font-weight: 500;
 }
 
+.breadcrumbs{
+text-decoration: none;
+color: #CB7B7B;
+}
+
+.breadcrumbs:hover{
+  text-decoration: none;
+  color: #A65F5F;
+  }
+
+.breadcrumbs:active{
+  text-decoration: none;
+  color: #666666;
+  }
+
+.breadcrumbs:visited{
+  text-decoration: none;
+  color: #CB7B7B;
+  }
+
 .poemText {
   width: 100%; margin: auto; background-color: white; padding: 10px;
 }
@@ -234,6 +254,11 @@ border-radius: 10px;
   text-align: center;
 }
 
+.breadcrumbsSection {
+  text-align: left;
+  margin-left: 40px;
+  font-size: .8em;
+}
 .showsNear {
   padding: 0px 30px 30px 30px;
 }
