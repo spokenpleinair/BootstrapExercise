@@ -120,6 +120,10 @@ color: #CB7B7B;
   background-color: #A65F5F;
   border: 1px solid #000000;
 }
+.navbar-toggler{
+  border-color:#666666 !important;
+}
+
 
 /* Jumbotron */
 .jumbotron {
