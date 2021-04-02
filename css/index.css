@@ -64,6 +64,7 @@ color: #CB7B7B;
   width: 100%; margin: auto; background-color: white; padding: 10px;
 }
 .btn {
+  color: white !important;
   background-color: #CB7B7B;
   border: 0px;
   padding-bottom: 3px;
@@ -74,6 +75,7 @@ color: #CB7B7B;
 }
 
 .btn-primary {
+  color: white !important;
   background-color: #CB7B7B !important;
 }
 
