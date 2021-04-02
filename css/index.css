@@ -216,7 +216,7 @@ color: #CB7B7B;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-position: center;
   min-height: 500px;
   height: calc(100vh - 500px);
