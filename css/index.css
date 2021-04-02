@@ -20,6 +20,26 @@ p {
   font-weight: 500;
 }
 
+a{
+  text-decoration: none;
+  color: #CB7B7B;
+  }
+  
+a:hover{
+    text-decoration: none;
+    color: #A65F5F;
+    }
+  
+a:active{
+    text-decoration: none;
+    color: #666666;
+    }
+  
+a:visited{
+    text-decoration: none;
+    color: #CB7B7B;
+    }
+
 .breadcrumbs{
 text-decoration: none;
 color: #CB7B7B;
